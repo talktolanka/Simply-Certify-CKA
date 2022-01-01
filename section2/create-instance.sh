@@ -2,7 +2,7 @@
 
 ZONE="us-central1-a"
 PROJECT_ID=$(gcloud config get-value project)
-MACHINE_TYPE="e2-medium"
+MACHINE_TYPE="e2-small"
 INSTANCE_NAME="my-ubuntu-vm"
 SUBNET="default"
 
